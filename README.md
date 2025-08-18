@@ -11,3 +11,10 @@ No diretório raiz, execute os comandos abaixo:
 ### 1. Compilar
 ```bash
 kotlinc src/*.kt -include-runtime -d Main.jar
+
+### 2. Executar
+```bash
+java -jar app.jar
+
+
+
