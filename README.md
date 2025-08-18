@@ -4,17 +4,13 @@ Este projeto calcula os percentuais de votos **válidos, brancos e nulos** em re
 
 ---
 
-## 🚀 Como rodar o projeto
+## ⚙️ Como compilar e executar
 
-No diretório raiz, execute os comandos abaixo:
+No diretório raiz do projeto, rode os comandos abaixo:
 
-### 1. Compilar
 ```bash
+# Compilar
 kotlinc src/*.kt -include-runtime -d Main.jar
 
-### 2. Executar
-```bash
-java -jar app.jar
-
-
-
+# Executar
+java -jar Main.jar
